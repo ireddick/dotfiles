@@ -1,0 +1,17 @@
+[user]
+	name = Iain Reddick
+	email = iain.reddick@gmail.com
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+[alias]
+	aa = add --all
+	st = status
+	co = checkout
+	di = diff
+	dc = diff --cached
+	ci = commit
+	l = !pretty_git_log.sh
+	amend = commit --amend
+  serve = daemon --reuseaddr --base-path=. --verbose --export-all
