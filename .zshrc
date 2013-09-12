@@ -54,6 +54,7 @@ alias proj='cd $DEV/projects'
 alias serve='ruby -run -e httpd -- -p 5000 .'
 
 # ruby
+source $HOME/.rvm/scripts/rvm
 alias be='bundle exec'
 alias r='rails'
 alias rspec='rspec --color $*'
