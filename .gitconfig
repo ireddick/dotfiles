@@ -14,4 +14,5 @@
   ci = commit
   l = "!. ~/.githelpers && pretty_git_log"
   amend = commit --amend
+  context = blame
   serve = daemon --reuseaddr --base-path=. --verbose --export-all
