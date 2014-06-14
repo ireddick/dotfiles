@@ -10,20 +10,18 @@ alias zedit='vi ~/.zshrc'
 # no autocorrect
 unsetopt correct_all
 
+# directory listing
 alias ll='ls -alh'
 alias la='ls -a'
 alias l='la'
-alias ..='cd ..'
-alias ~='cd ~'
 
 # process management
 alias sr='screen -r'
 alias sl='screen -list'
 
 # getting around
-alias dev='cd $DEV'
-alias dbx='cd $DBX'
-alias proj='cd $DEV/projects'
+alias ~='cd ~'
+alias ..='cd ..'
 
 # tools
 alias serve='ruby -run -e httpd -- -p 5000 .'
