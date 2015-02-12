@@ -6,7 +6,7 @@
 [core]
   autocrlf = input
 [alias]
-  aa = add --all
+  aa = add --all :/
   st = status
   co = checkout
   di = diff
