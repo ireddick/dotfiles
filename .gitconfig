@@ -16,3 +16,6 @@
   amend = commit --amend
   context = blame
   serve = daemon --reuseaddr --base-path=. --verbose --export-all
+[push]
+  default = simple
+
