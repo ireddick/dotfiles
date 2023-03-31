@@ -18,4 +18,5 @@
   serve = daemon --reuseaddr --base-path=. --verbose --export-all
 [push]
   default = simple
-
+[init]
+  defaultBranch = main
