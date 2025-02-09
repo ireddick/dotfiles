@@ -13,7 +13,7 @@ hi cursorline cterm=NONE ctermbg=black guibg=black
 set expandtab
 set tabstop=2
 set softtabstop=2
-set sw=2
+set shiftwidth=2
 
 " search
 set hlsearch
