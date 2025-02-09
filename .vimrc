@@ -2,7 +2,7 @@
 syntax on
 
 " line numbers
-set nu
+set number
 hi linenr cterm=NONE ctermfg=green guifg=green
 
 " cursor line highlighting
